@@ -124,7 +124,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-# Botal de Download
+# Botão de Download
         self.download_bt.clicked.connect(self.download)
 
     def download(self):
